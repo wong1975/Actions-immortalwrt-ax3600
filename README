@@ -1,1 +1,7 @@
-config_build_tool.sh - OpenWrt-k配置构建工具
+build_helper - 文件夹  --- OpenWrt-k 脚本
+config - 文件夹  --- 存储编译 设备 的配置与OpenWrt-k额外的配置
+files - 文件夹  --- openwrt固件自定义文件
+patches - 文件夹  --- 
+scripts - 文件夹  --- 编译时所用的部分脚本
+
+config_build_tool.sh - OpenWrt-k配置构建运行工具 SSH执行：./config_build_tool.sh
