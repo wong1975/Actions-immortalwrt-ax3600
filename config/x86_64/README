@@ -1,0 +1,11 @@
+OpenWrt-K - 
+image.config      --- 存储镜像的分区大小生成镜像的类型系统启动等待时间等配置（对应Menuconfig中的Target Images）
+target.config     --- 存储编译固件的架构设备等（对应Menuconfig中的Target System、Subtarget、Target Profile、Target Devices）
+kmod.config       --- 存储内核模块（驱动）配置（对应Menuconfig中的Kernel modules）
+luci.config       --- 存储LuCI APP配置（对应Menuconfig中的LuCI）
+network.config    --- 存储网络相关软件包配置（对应Menuconfig中的Network）
+utilities.config  --- 存储工具类软件包配置（对应Menuconfig中的Utilities）
+other.config      --- openwrt剩余的所有配置
+OpenWrt-K/extpackages.config --- 存放拓展软件包配置
+OpenWrt-K/openwrtext.config --- 存放openwrt拓展配置，如：IP、时区等
+OpenWrt-K/compile.config --- 用于定义openwrt编译所用的分支或tag（仅官方源）与配置kmod编译排除列表
