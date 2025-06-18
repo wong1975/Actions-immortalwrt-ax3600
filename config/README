@@ -1,0 +1,2 @@
+OpenWrt.config - 设置指向设备配置文件夹名
+default-extpackages - OpenWrt-k配置构建工具拓展软件包
